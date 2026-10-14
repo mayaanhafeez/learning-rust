@@ -1,0 +1,20 @@
+# Cargo build output in every project
+target/
+
+# Rust backup files
+**/*.rs.bk
+
+# Editor temporary files
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Keep Cargo.lock tracked for these binary projects.
